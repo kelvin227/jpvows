@@ -68,7 +68,7 @@ export default function Story() {
             
             </div>
           </div>
-                    <div className="mb-5">
+          <div className="mt-25 mb-5">
             <p>
               We met at an art walk in Seattle, literally bumping into each
               other. We started hiking together, a lot. We both love the PNW,
