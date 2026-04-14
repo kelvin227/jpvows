@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn("font-sans", geist.variable)} suppressHydrationWarning>
       <body className="dark font-light">
-        <div className="">
+        <div >
           <FloatingMenu />
           {children}
           <FloatingBottomMenu />

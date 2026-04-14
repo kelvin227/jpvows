@@ -13,16 +13,17 @@ import {
   ChevronRight,
   Copy,
   Check,
+  Camera,
 } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Dialog, DialogContent, DialogTitle } from "./ui/dialog";
 import { Button } from "./ui/button";
-import { Icon } from "next/dist/lib/metadata/types/metadata-types";
 
 const navItems = [
   { href: "/", label: "Home", icon: House },
   { href: "/story", label: "Our Story", icon: Heart },
-  { href: "/details", label: "Details", icon: CalendarDays },
+  { href: "/photograph", label: "Photography Schedule", icon: Camera },
+  { href: "/program", label: "Wedding Program", icon: CalendarDays},
   { href: "/gallery", label: "Gallery", icon: Images },
   { href: "/rsvp", label: "RSVP", icon: Mail },
 ];
