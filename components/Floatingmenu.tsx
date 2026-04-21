@@ -28,9 +28,9 @@ const navItems = [
   { href: "/rsvp", label: "RSVP", icon: Mail },
 ];
 const accountDetails = [
-  { label: "Bank Name", value: "GTBank", clip: false, icon: Copy, icon2: Check },
-  { label: "Account Name", value: "joy & Paul", clip: false, icon: Copy, icon2: Check},
-  { label: "Account Number", value: "1234567890", clip: true, icon: Copy, icon2: Check },
+  { label: "Bank Name", value: "Zenith Bank", clip: false, icon: Copy, icon2: Check },
+  { label: "Account Name", value: "Paul Gregory Abuh", clip: false, icon: Copy, icon2: Check},
+  { label: "Account Number", value: "2194004316", clip: true, icon: Copy, icon2: Check },
 ];
 
 export default function FloatingMenu() {
@@ -183,7 +183,7 @@ export function FloatingBottomMenu() {
                   account details.
                 </p>
 
-                <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="w-full grid grid-cols-1  gap-4">
                     {accountDetails.map((aza, index) => {
                       const Icon = copied ? aza.icon2 : aza.icon;
                       return (
