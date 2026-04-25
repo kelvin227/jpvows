@@ -118,7 +118,7 @@ export default function Program() {
         playsInline
         className="fixed top-0 left-0 w-full h-full object-cover -z-10"
       >
-        <source src="/Wedding Program - Emordi Nnadi.mp4" type="video/mp4" />
+        <source src="/BG.mp4" type="video/mp4" />
       </video>
 
       {/* Optional dark overlay (for readability) */}
